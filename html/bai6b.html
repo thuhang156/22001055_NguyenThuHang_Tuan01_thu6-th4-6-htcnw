@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai6b</title>
+    <style>
+        #k1{
+            
+            width: 500px;
+            border: 1px solid gray;
+        }
+        input{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="k1">
+        <form action="">
+            <fieldset>
+                <legend>Your message </legend>
+                <table>
+                    <tr>
+                        <td>To</td>
+                        <td> <input type="text" size="20"> </td>
+                    </tr>
+                    <tr>
+                        <td>Your email</td>
+                        <td> <input type="text" size="20"> </td>
+                    </tr>
+                    <tr>
+                            <td>Message:</td>
+                            <td><textarea name="tx" id="tx" cols="30" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Attach File</td>
+                        <td> <input type="file" name="30" id="Choose File"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <form action="">
+                     <legend>How you found us</legend>  
+                     <table>
+                        <tr>
+                            <td>How did you hear of us </td>
+                            <td> <select name="tft" id="tft" >
+                                <option value="1">Google</option>
+                                <option value="2">Opera</option>
+                                <option value="3">CocCoc</option>
+                            </select> </td>
+                        </tr>
+                        <tr>
+                            <td>Newsletter</td>
+                            <td> <input type="radio" name="tft1" id="tft1">Ensure this box is checked if you would like to receive email updates</td>
+                        </tr>
+                     </table>
+                </form>
+            </fieldset>
+        </form>
+        <button type="submit" name="registerButton"> Send message</button>
+    </div>
+    
+</body>
+</html>
